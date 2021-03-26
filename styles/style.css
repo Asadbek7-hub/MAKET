@@ -1,0 +1,32 @@
+.main_content {
+    background: #0b0b0b;
+    overflow: hidden;
+}
+
+.characteristics {
+    margin-top: 105px;
+}
+
+.characteristic {
+    color: red;
+}
+
+.characteristic p:first-child{
+    font-size: 24px;
+    margin-botton: 39px;
+}
+
+.characteristic p:nth-child(2){
+    font-size: 96px;
+    margin-bottom: 39px;
+}
+
+.characteristic p > span {
+    font-size: 24px;
+    margin-left: -30px;
+}
+
+.characteristic p:nth-child(3){
+    font-size: 96px;
+    color: #b70021
+}
